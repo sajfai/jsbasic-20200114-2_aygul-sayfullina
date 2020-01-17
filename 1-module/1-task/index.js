@@ -11,7 +11,7 @@ function factorial(n) {
     let firstMultiplier = n;
     let factorial = 1;
     for (let i = 1; i < n; i++) {
-    factorial = factorial * (n - i);
+      factorial = factorial * (n - i);
     }
     return firstMultiplier * factorial;
   }
